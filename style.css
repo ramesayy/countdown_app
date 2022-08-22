@@ -1,0 +1,38 @@
+*   {
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./christmas.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: cursive;
+    margin: 0;
+
+}
+
+h1  {
+    font-size: 5rem;
+    margin-top: 15rem;
+    color: red;
+}
+.countdown-container    {
+    display: flex;
+    color:red;
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.big-text   {
+    font-size: 5rem;
+    line-height: 1;
+    margin: 0 2rem;
+    font-weight: bold;
+}
+.countdown-container span   {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
